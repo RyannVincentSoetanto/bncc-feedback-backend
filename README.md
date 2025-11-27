@@ -2,12 +2,12 @@
 
 Ini adalah repository backend untuk sistem feedback acara internal BNCC. Backend ini dibangun menggunakan **Node.js** dan **Express.js**, menyediakan API untuk operasi CRUD (Create, Read, Update, Delete) data feedback.
 
-## 🛠 Tech Stack
+## Tech Stack
 * **Runtime:** Node.js
 * **Framework:** Express.js
 * **Utilities:** Cors, Nodemon
 
-## 🚀 Cara Menjalankan (Run Locally)
+## Cara Menjalankan (Run Locally)
 
 Ikuti langkah-langkah berikut untuk menjalankan server di lokal:
 
@@ -38,7 +38,7 @@ Ikuti langkah-langkah berikut untuk menjalankan server di lokal:
 
 ---
 
-## 📡 Dokumentasi API
+## Dokumentasi API
 
 Berikut adalah daftar endpoint yang tersedia untuk Frontend.
 
@@ -87,7 +87,7 @@ Menghapus satu data feedback.
 
 ---
 
-## ⚠️ Catatan Penting
+## Catatan Penting
 Saat ini penyimpanan data menggunakan **In-Memory Array**.
 Artinya, jika server dimatikan atau direstart, **semua data yang sudah diinput akan hilang (reset)**.
 
