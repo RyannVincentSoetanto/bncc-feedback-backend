@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 let feedbacks = [];
- 
+
 
 const getFeedback = (req, res) => {
     const { status } = req.query;
@@ -28,7 +28,7 @@ const addFeedback = (req, res) => {
     }
 
     const newFeedback = {
-        id: Date.now().toString(),
+        id: Date.now().toString(), 
         name,
         email,
         eventName,
@@ -80,10 +80,8 @@ const deleteFeedback = (req, res) => {
     res.json({ message: 'Feedback berhasil dihapus' });
 };
 
-[cite_start]
-
 app.get('/api/feedback', getFeedback);       
-app.post('/api/feedback', addFeedback);     
+app.post('/api/feedback', addFeedback);      
 app.put('/api/feedback/:id', updateFeedback); 
 app.delete('/api/feedback/:id', deleteFeedback); 
 
